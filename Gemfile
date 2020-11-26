@@ -140,13 +140,13 @@ end
 # =======================
 
 group :development do
-  gem 'capistrano-harrow', git: 'https://github.com/harrowio/capistrano-harrow', tag: '0.3.1'
+  #gem 'capistrano-harrow', git: 'https://github.com/harrowio/capistrano-harrow', tag: '0.3.1'
   gem 'capistrano', '>= 3.4.0'
   gem 'capistrano-rails', '>= 1.1.2'
   gem 'capistrano-bundler', '>= 1.1'
   gem 'capistrano-rvm', '>= 0.1.2'
   gem 'capistrano-touch-linked-files', '>= 0.2.1'
-  gem 'capistrano3-puma', github: 'seuros/capistrano-puma'
+  #gem 'capistrano3-puma', github: 'seuros/capistrano-puma'
   gem 'slackistrano', '>= 3.0.1', require: false
 end
 
